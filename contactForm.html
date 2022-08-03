@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+
+</head>
+
+<body>
+    <fieldset>
+        <legend>Entre em contato</legend>
+        <form action="">
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto">Sugestão
+                <option value="blank">informe o assunto</option>
+                <option value="cotacao">Cotação</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+            </select>
+            <br><br>
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="nome" autofocus tabindex="1" placeholder="Insira seu nome">
+            <br>
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="Email" id="email" name="email" tabindex="2" placeholder="exemplo@exemplo.com.br">
+            <br>
+            <br>
+            <label for="msg">Mensagem</label>
+            <br>
+            <textarea type="Email" id="msg" name="msg" tabindex="3" rows="10" cols="20"
+                placeholder="Digite sua mensagem">
+            </textarea>
+            <br>
+            <br>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox">Aceito receber novidades por e-mail.</label>
+            <br>
+            <br>
+            <a href="./contactFormRelpy.html">
+                <input type="button" value="Enviar">
+            </a>
+
+            <a href="./blog-post.html">
+                <input type="button" value="Voltar">
+            </a>
+        </form>
+    </fieldset>
+</body>
+
+</html>
